@@ -170,6 +170,155 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "academic-research-development",
+      "title": "Academic Research Development",
+      "mode": "NEXUS-Sprint",
+      "duration": "Task-bounded",
+      "summary": "Bounded implementation work for Academic Research when no more specific personal runbook dominates.",
+      "doc": "strategy/runbooks/personal-academic-research-development.md",
+      "roster": [
+        {
+          "group": "Core",
+          "activation": "always",
+          "agents": [
+            "engineering-minimal-change-engineer",
+            "engineering-codebase-onboarding-engineer"
+          ]
+        },
+        {
+          "group": "Conditional Specialists",
+          "activation": "as needed",
+          "agents": [
+            "engineering-software-architect",
+            "engineering-data-engineer",
+            "engineering-prompt-engineer",
+            "engineering-technical-writer"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "academic-research-architecture",
+      "title": "Academic Research Architecture",
+      "mode": "NEXUS-Sprint",
+      "duration": "Decision-bounded",
+      "summary": "Architecture and authority-boundary analysis for Academic Research and related components.",
+      "doc": "strategy/runbooks/personal-academic-research-architecture.md",
+      "roster": [
+        {
+          "group": "Core",
+          "activation": "always",
+          "agents": [
+            "engineering-software-architect",
+            "engineering-codebase-onboarding-engineer"
+          ]
+        },
+        {
+          "group": "Conditional Specialists",
+          "activation": "as needed",
+          "agents": [
+            "engineering-multi-agent-systems-architect",
+            "specialized-mcp-builder",
+            "engineering-prompt-engineer",
+            "engineering-technical-writer"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "academic-retrieval-improvement",
+      "title": "Academic Retrieval Improvement",
+      "mode": "NEXUS-Sprint",
+      "duration": "Task-bounded",
+      "summary": "Coordinate academic retrieval pipeline, relevance, corpus/index, and explicitly authorized evaluation work.",
+      "doc": "strategy/runbooks/personal-academic-retrieval-improvement.md",
+      "roster": [
+        {
+          "group": "Core",
+          "activation": "always",
+          "agents": [
+            "engineering-rag-pipeline-engineer",
+            "engineering-search-relevance-engineer"
+          ]
+        },
+        {
+          "group": "Conditional Specialists",
+          "activation": "as needed",
+          "agents": [
+            "engineering-ai-data-remediation-engineer",
+            "engineering-data-engineer",
+            "engineering-multi-agent-systems-architect",
+            "engineering-minimal-change-engineer"
+          ]
+        },
+        {
+          "group": "Evaluation Specialists",
+          "activation": "explicit evaluation mode only",
+          "agents": [
+            "testing-performance-benchmarker",
+            "testing-test-results-analyzer"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "new-mcp-callable-component",
+      "title": "New MCP / Callable Component",
+      "mode": "NEXUS-Sprint",
+      "duration": "Task-bounded",
+      "summary": "Design or implement one bounded callable provider, MCP, tool, or component surface.",
+      "doc": "strategy/runbooks/personal-new-mcp-callable-component.md",
+      "roster": [
+        {
+          "group": "Core",
+          "activation": "always",
+          "agents": [
+            "engineering-codebase-onboarding-engineer",
+            "engineering-software-architect",
+            "specialized-mcp-builder"
+          ]
+        },
+        {
+          "group": "Conditional Specialists",
+          "activation": "as needed",
+          "agents": [
+            "engineering-multi-agent-systems-architect",
+            "engineering-prompt-engineer",
+            "engineering-minimal-change-engineer",
+            "engineering-technical-writer"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "plugin-verification-remediation",
+      "title": "Plugin Verification & Remediation",
+      "mode": "NEXUS-Micro",
+      "duration": "Task-bounded",
+      "summary": "Explicit verification, audit, readiness, or bounded remediation with verify-only as the default branch.",
+      "doc": "strategy/runbooks/personal-plugin-verification-remediation.md",
+      "roster": [
+        {
+          "group": "Evidence Core",
+          "activation": "always",
+          "agents": [
+            "testing-evidence-collector"
+          ]
+        },
+        {
+          "group": "Conditional / Mode-Gated",
+          "activation": "as explicitly authorized",
+          "agents": [
+            "engineering-code-reviewer",
+            "testing-test-results-analyzer",
+            "testing-reality-checker",
+            "testing-performance-benchmarker",
+            "engineering-minimal-change-engineer"
+          ]
+        }
+      ]
     }
   ]
 }
