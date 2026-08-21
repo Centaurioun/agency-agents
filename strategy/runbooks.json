@@ -319,6 +319,31 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "statistics-visualization",
+      "title": "Statistics & Visualization",
+      "mode": "NEXUS-Micro",
+      "duration": "Task-bounded",
+      "summary": "Interpret statistical results and design truthful visual representations without replacing domain-specific scientific analysis owners.",
+      "doc": "strategy/runbooks/personal-statistics-visualization.md",
+      "roster": [
+        {
+          "group": "Core",
+          "activation": "always",
+          "agents": [
+            "academic-statistician",
+            "engineering-data-visualization-engineer"
+          ]
+        },
+        {
+          "group": "Conditional",
+          "activation": "as needed",
+          "agents": [
+            "engineering-data-engineer"
+          ]
+        }
+      ]
     }
   ]
 }
