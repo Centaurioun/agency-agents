@@ -4,7 +4,7 @@
 **Repository:** `Centaurioun/agency-agents`
 **Branch:** `feature/statistics-visualization-personal-runbook-v1`
 **Starting SHA:** `7b79d245224a0db9bbb8342c061b40860e5578d2`
-**Final SHA:** to be recorded after the evidence commit
+**Final SHA:** `598f7ee6844cb3bc3005f447e9be0ebf2e23f777`
 **Local repository path:** `/Users/yusuf/Repos/agency-agents`
 
 ## Required validator
